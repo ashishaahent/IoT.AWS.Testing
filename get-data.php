@@ -13,6 +13,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $error = $_FILES['output']['error'];
         echo "No file was uploaded or there was an error during the upload. Error code: $error";
     }
+    echo "<br>";
     echo 'upload_tmp_dir: ' . ini_get('upload_tmp_dir') . '<br>';
-    echo 'sys_get_temp_dir: ' . sys_get_temp_dir() . '<br>';
+    echo 'sys_get_temp_dir: ' . sys_get_temp_dir();
 }

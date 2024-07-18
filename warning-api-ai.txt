@@ -1,0 +1,3 @@
+http://iotwithai.com/speech-to-text-lcd/write.php?msg=caution
+http://iotwithai.com/speech-to-text-lcd/write.php?msg=danger
+http://iotwithai.com/speech-to-text-lcd/write.php?msg=normal
